@@ -1,0 +1,233 @@
+body{
+  background-color: rgb(241, 194, 131);
+}
+
+.card{
+  background-color: rgb(173, 138, 92);
+  width: 370px;   
+  margin: 25px auto;
+  border-radius: 5%;
+  font-family: "Mulish", sans-serif;
+  }
+
+  .header{
+    margin-bottom: 25px;
+  }
+
+  .card-img{
+    display: flex;
+    width: 350px;
+    
+    border-radius: 20%;
+    margin: 5px auto;
+    padding-top: 15px;  
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.subtitle{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.tribute-info{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px auto;
+  padding: 3px;
+  line-height: 2rem; 
+  background-color: rgb(212, 183, 144);
+  border-radius: 15px;
+  font-size: 1.5rem;
+}
+
+p{
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 3rem; 
+}
+
+.frases{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px auto;
+  padding: 3px;
+  line-height: 1.2rem; 
+  background-color: rgb(212, 183, 144);
+  border-radius: 15px;
+}
+
+.frases-title{
+  font-family: "Libre Baskerville", serif;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.frases-list{
+  font-family: "Mulish", sans-serif;
+  margin-left: 10px;
+}
+
+.frases-list li{
+  margin-bottom: 5px;
+}
+
+.tribute-link-info{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.tribute-link{
+  color: rgb(59, 8, 107);
+}
+
+@media screen and (min-width:768px){
+  .card{
+    background-color: rgb(173, 138, 92);
+    width: 90%;   
+  }
+
+  .card-img{
+    width: 90%;      
+  }
+
+  .title{
+    font-size: 4rem;
+  }
+  
+  .subtitle{
+    font-size: 2.5rem;
+  }
+
+  .tribute-info{
+    padding: 5px;
+    line-height: 2.5rem; 
+    font-size: 2.5rem;
+  }
+  
+  p{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .frases{
+    padding: 3px;
+    line-height: 1.2rem; 
+    background-color: rgb(212, 183, 144);
+    border-radius: 15px;
+  }
+  
+  .frases-title{
+    font-size: 3rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .frases-list{
+    margin-left: 10px;
+    line-height: 2.5rem; 
+    font-size: 2.5rem;
+  }
+  
+  .frases-list li{
+    margin-bottom: 15px;
+  }
+  
+  .tribute-link-info{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    font-size: 2.5rem;
+  }
+  
+}
+
+/*##############################*/
+
+
+@media screen and (min-width:1400px){
+  .card{
+    background-color: rgb(173, 138, 92);
+    width:90%;   
+  }
+
+  .card-img{
+    width: 90%;
+  }
+
+  .title{
+    font-size: 5rem;
+  }
+  
+  .subtitle{
+    font-size: 3rem;
+  }
+
+  .tribute-info{
+    padding: 20px;
+    line-height: 2.5rem; 
+    font-size: 2.5rem;
+  }
+  
+  p{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .frases{
+    padding: 20px;
+    line-height: 1.2rem; 
+    background-color: rgb(212, 183, 144);
+    border-radius: 15px;
+  }
+  
+  .frases-title{
+    font-size: 3rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .frases-list{
+    margin-left: 10px;
+    line-height: 2.5rem; 
+    font-size: 2.5rem;
+  }
+  
+  .frases-list li{
+    margin-bottom: 15px;
+  }
+  
+  .tribute-link-info{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    font-size: 2.5rem;
+  }
+
+
+  
+}
