@@ -1,7 +1,3 @@
-🚧***Under Construction***🚧
-
-## ![Logo of the project](logo.png)
-
 ## Tribute_Page - Responsive Website
 * A tribute page made as a task to conclude the "Responsive Web Design" course from FreeCodeCamp.
 * Developed first with the Mobile First methodology, then for desktop.
@@ -20,7 +16,7 @@ Here are the technologies used in this project.
 * Netlify
 
 ## Links
-  - Deploy on Netlify: 
+  - Deploy on Netlify: https://gandhi-tribute.netlify.app/
   - Repository: https://github.com/decobaccili/Tribute_Page
 
 ## Template
