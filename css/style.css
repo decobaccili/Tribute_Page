@@ -111,7 +111,7 @@ p{
 @media screen and (min-width:768px){
   .card{
     background-color: rgb(173, 138, 92);
-    width: 90%;   
+    width: 768px;   
   }
 
   .card-img{
@@ -144,7 +144,7 @@ p{
     line-height: 1.2rem; 
     background-color: rgb(212, 183, 144);
     border-radius: 15px;
-    margin-left: 27px;
+    margin-left: 30px;
   }
   
   .frases-title{
@@ -178,7 +178,7 @@ p{
 @media screen and (min-width:1400px){
   .card{
     background-color: rgb(173, 138, 92);
-    width:90%;   
+    width:1400px;   
   }
 
   .card-img{
