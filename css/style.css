@@ -1,24 +1,30 @@
 body{
   background-color: rgb(241, 194, 131);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card{
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
   background-color: rgb(173, 138, 92);
-  width: 370px;   
+  width: 315px;   
   margin: 25px auto;
-  border-radius: 5%;
+  border-radius: 15px;
   font-family: "Mulish", sans-serif;
   }
 
   .header{
+    text-align: center;
     margin-bottom: 25px;
   }
 
   .card-img{
     display: flex;
-    width: 350px;
-    
-    border-radius: 20%;
+    width: 290px;    
+    border-radius: 40px;
     margin: 5px auto;
     padding-top: 15px;  
 }
@@ -29,7 +35,7 @@ body{
   padding: 20px;
   font-family: "Libre Baskerville", serif;
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .subtitle{
@@ -37,7 +43,7 @@ body{
   justify-content: center;
   padding: 10px;
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .tribute-info{
@@ -48,18 +54,18 @@ body{
   align-items: center;
   margin: 15px auto;
   padding: 3px;
-  line-height: 2rem; 
+  line-height: 1rem; 
   background-color: rgb(212, 183, 144);
   border-radius: 15px;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 p{
-  margin-bottom: 10px;
+  margin: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  line-height: 3rem; 
+  line-height: 1.5rem; 
 }
 
 .frases{
@@ -68,7 +74,7 @@ p{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 15px auto;
+  margin: 10px;
   padding: 3px;
   line-height: 1.2rem; 
   background-color: rgb(212, 183, 144);
@@ -79,7 +85,8 @@ p{
   font-family: "Libre Baskerville", serif;
   display: flex;
   justify-content: center;
-  padding-bottom: 10px;
+  padding: 15px;
+  line-height: 1.5rem;
 }
 
 .frases-list{
@@ -88,7 +95,7 @@ p{
 }
 
 .frases-list li{
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .tribute-link-info{
@@ -112,7 +119,7 @@ p{
   }
 
   .title{
-    font-size: 4rem;
+    font-size: 3rem;
   }
   
   .subtitle{
@@ -121,11 +128,11 @@ p{
 
   .tribute-info{
     padding: 5px;
-    line-height: 2.5rem; 
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
   
   p{
+    line-height: 2.5rem; 
     margin-bottom: 10px;
     display: flex;
     justify-content: center;
@@ -133,14 +140,15 @@ p{
   }
 
   .frases{
-    padding: 3px;
+    padding: 8px;
     line-height: 1.2rem; 
     background-color: rgb(212, 183, 144);
     border-radius: 15px;
+    margin-left: 27px;
   }
   
   .frases-title{
-    font-size: 3rem;
+    font-size: 2rem;
     padding-top: 30px;
     padding-bottom: 30px;
   }
@@ -148,7 +156,7 @@ p{
   .frases-list{
     margin-left: 10px;
     line-height: 2.5rem; 
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
   
   .frases-list li{
@@ -159,7 +167,7 @@ p{
     display: flex;
     justify-content: center;
     padding-bottom: 20px;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
   
 }
@@ -178,17 +186,18 @@ p{
   }
 
   .title{
-    font-size: 5rem;
+    font-size: 4rem;
+    padding: 30px;
   }
   
   .subtitle{
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   .tribute-info{
     padding: 20px;
-    line-height: 2.5rem; 
-    font-size: 2.5rem;
+    line-height: 1.5rem; 
+    font-size: 2rem;
   }
   
   p{
@@ -203,29 +212,30 @@ p{
     line-height: 1.2rem; 
     background-color: rgb(212, 183, 144);
     border-radius: 15px;
+    margin-left: 50px;
+    margin-bottom: 30px;
   }
   
   .frases-title{
     font-size: 3rem;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 50px 0;
   }
   
   .frases-list{
     margin-left: 10px;
-    line-height: 2.5rem; 
-    font-size: 2.5rem;
+    line-height: 2rem; 
+    font-size: 2rem;
   }
   
   .frases-list li{
-    margin-bottom: 15px;
+    margin-bottom: 30px;
   }
   
   .tribute-link-info{
     display: flex;
     justify-content: center;
     padding-bottom: 20px;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
 
 
